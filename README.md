@@ -16,3 +16,15 @@ A Note on the Environment: These files represent the algorithmic "brain" I devel
 
 Why This Code?
 I’m sharing this because it reflects my ability to take abstract theory and turn it into robust, fast-running algorithms. It’s a mix of scientific rigor, heavy-duty linear algebra, and numerical optimization—the kind of work I truly enjoy.
+
+## Authors & Contributors
+
+### Hartree-Fock Engine (`hf.f90`)
+The development of the core SCF engine, including the iterative loops, damping mechanisms, and DIIS convergence algorithms, was carried out by:
+* **Daniel Morreale**
+* **Filippo Becuzzi**
+
+### Linear Response Module (`pol.f90`)
+The development of the linear response theory framework, implementation of Casida's equations, and molecular polarizability tensor calculations was carried out by:
+* **Daniel Morreale**
+* **Caterina Pugi**
